@@ -28,7 +28,7 @@ echo "Running on $domain"
 echo -n "$domain" > .tmp 
 while true
 do
-echo -n "user@omatr0n$"
+echo -n "user@omatr0n$ "
 #aks for command to send to remote shell
 read com
 	#checks if command is exit
